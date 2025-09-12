@@ -28,7 +28,8 @@ This project is an end-to-end analysis of the Olist e-commerce dataset. The prim
 ---
 
 ## 4. Dashboard Preview
-![Olist Customer Analytics Dashboard](<img width="858" height="710" alt="dashboard_screenshot" src="https://github.com/user-attachments/assets/80841863-a144-428f-a2eb-8e837b2131fb" />)
+![Olist Customer Analytics Dashboard](https://public.tableau.com/authoring/OlistCustomerAnalyticsDashboard/Dashboard1#1)
+<img width="858" height="710" alt="dashboard_screenshot" src="https://github.com/user-attachments/assets/80841863-a144-428f-a2eb-8e837b2131fb" />
 
 
 ---
