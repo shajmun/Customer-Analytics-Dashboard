@@ -14,7 +14,7 @@ This project is an end-to-end analysis of the Olist e-commerce dataset. The prim
 * **Data Extraction:** SQL
 * **Data Analysis & Cleaning:** Python (Pandas)
 * **Data Visualization:** Tableau
-* **Necessary Data:** https://drive.google.com/drive/folders/1t_9tf264QpWWFYv4NMBmxdRkVIbJ8AGj?usp=sharing
+* **Necessary Data:** [Data](https://drive.google.com/drive/folders/1t_9tf264QpWWFYv4NMBmxdRkVIbJ8AGj?usp=sharing)
 
 ---
 
