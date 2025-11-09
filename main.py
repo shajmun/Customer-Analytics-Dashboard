@@ -2,12 +2,12 @@
 import pandas as pd
 from sqlalchemy import create_engine
 
-# Connecting to the Database
+# connecting to the Database
 engine = create_engine('sqlite:///Olist_Store.db')
 
 
-# Writing a Broader SQL Query
-# This query gets all customer and order data
+# writing a Broader SQL Query
+# this query gets all customer and order data
 query = """
 SELECT *
 FROM olist_customers_dataset
@@ -15,7 +15,7 @@ INNER JOIN olist_orders_dataset
 ON olist_customers_dataset.customer_id = olist_orders_dataset.customer_id
 """
 
-# Loading Data into Pandas
+# loading Data into Pandas
 df = pd.read_sql_query(query, engine)
 
 
@@ -37,7 +37,7 @@ df_before_2017 = df[df['order_purchase_timestamp'] < '2017-01-01']
 print(df_before_2017['shipping_time'].mean())
 
 
-# Saving the full, cleaned dataset for use in Tableau
+# saving the full, cleaned dataset for use in Tableau
 df.to_csv('cleaned_olist_data.csv', index=False)
 
 print("\nSuccessfully saved cleaned data to cleaned_olist_data.csv")
